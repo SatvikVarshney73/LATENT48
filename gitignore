@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Large raw data / secrets (keep only the curated sample committed manually)
+*.env
+cycle_search_data.zip
+registrations.csv
